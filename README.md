@@ -13,18 +13,16 @@
 │                                                                              │
 │  Name      :: Archit Jain                                                    │
 │  Role      :: Software Engineer                                              │
-│  Company   :: Forward Networks                                               │
 │                                                                              │
 │  Building  :: Distributed Systems                                            │
 │               Network Digital Twins                                          │
-│               AI Infrastructure                                              │
-│               Kubernetes Operators                                           │
+│               AI Infrastructure                                              │                                       
 │                                                                              │
 │  Languages :: Go · Java · Python · C++                                       │
 │                                                                              │
-│  Interests :: Systems Design · Networking · Databases · Linux               │
+│  Interests :: Systems Design · Networking · Databases · Linux                │
 │                                                                              │
-│  Motto     :: "Optimize first. Scale second. Repeat forever."               │
+│  Motto     :: "Optimize first. Scale second. Repeat forever."                │
 │                                                                              │
 │  Status    :: ██████████████████████  Currently Shipping                     │
 │                                                                              │
@@ -72,18 +70,6 @@
     ├── LLM Infrastructure
     └── MCP
 ```
-
----
-
-# 📈 GitHub Stats
-
-<p align="center">
-
-<img height=170 src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height=170 src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true"/>
-
-</p>
 
 ---
 
