@@ -1,33 +1,33 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=%24+ssh+archit%40github;%24+Loading+Distributed+Systems...;%24+Go+%E2%80%A2+Java+%E2%80%A2+Kafka+%E2%80%A2+Redis;%24+Building+Backend+Infrastructure..." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=%24+ssh+archit1jain%40github;%24+Loading+Distributed+Systems...;%24+Go+%E2%80%A2+Java+%E2%80%A2+Kafka+%E2%80%A2+Redis;%24+Building+Backend+Infrastructure..." alt="Typing SVG" />
 </p>
 
-```console
-╭──────────────────────────────────────────────────────────────────────────╮
-│ ● ● ●                                          ssh archit@github          │
-├──────────────────────────────────────────────────────────────────────────┤
-│ Last login: Wed Jul 15 22:31:07 2026 from 10.0.0.14                       │
-│                                                                            │
-│ Welcome to ArchitOS 3.2 LTS (GNU/Linux 6.9.0-backend x86_64)               │
-│                                                                            │
-│  * Documentation:  https://github.com/archit                             │
-│  * Uptime:         6 years, 3 months, 14 days                            │
-│                                                                            │
-│ System load:  0.42     Processes:       118                              │
-│ Usage of /:   71.2%    Users logged in:  1                               │
-│                                                                            │
-╰──────────────────────────────────────────────────────────────────────────╯
+<br>
+
+```text
+┌──────────────────────────────────────────────────────────────────┐
+│ ●  ●  ●                                    ssh archit1jain@github │
+├──────────────────────────────────────────────────────────────────┤
+│ Last login: Wed Jul 15 22:31:07 2026 from 10.0.0.14               │
+│                                                                    │
+│ Welcome to ArchitOS 3.2 LTS (GNU/Linux 6.9.0-backend x86_64)       │
+│                                                                    │
+│   Documentation : github.com/archit1jain                          │
+│   Uptime        : 6 years, 3 months, 14 days                      │
+│   System load   : 0.42        Processes : 118                     │
+│   Usage of /    : 71.2%       Users     : 1                       │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
 <br>
 
 ```bash
-archit@github:~$ whoami
+archit1jain@github:~$ whoami
 ```
-
-```
+```text
 Backend Engineer.
 Building distributed systems that stay up when everything else falls over.
+
 Fluent in Go and Java. Comfortable at 2am reading a stack trace from a
 service that's been running fine for two years.
 
@@ -38,20 +38,20 @@ and teaching machines to page other machines instead of me.
 <br>
 
 ```bash
-archit@github:~$ uname -a
+archit1jain@github:~$ uname -a
 ```
-
-```
+```text
 ArchitOS 3.2.0-backend #1 SMP PREEMPT Go/Java x86_64
-Kernel: distributed-systems-6.9
-Arch: latency-sensitive
-Build flags: -O2 -Wall -Wobservability
+Kernel      : distributed-systems-6.9
+Arch        : latency-sensitive
+Build flags : -O2 -Wall -Wobservability
 ```
 
 <br>
 
-## `$ tree /skills`
-
+```bash
+archit1jain@github:~$ tree /skills
+```
 ```text
 /skills
 ├── backend/
@@ -102,8 +102,9 @@ Build flags: -O2 -Wall -Wobservability
 
 <br>
 
-## `$ cat /etc/philosophy`
-
+```bash
+archit1jain@github:~$ cat /etc/philosophy
+```
 ```text
 1. Measure before you optimize.
 2. Optimize before you scale.
@@ -115,24 +116,26 @@ Build flags: -O2 -Wall -Wobservability
 
 <br>
 
-## `$ ps aux`
-
+```bash
+archit1jain@github:~$ ps aux
+```
 ```text
-USER      PID  %CPU  %MEM  COMMAND
-archit      1   2.1   1.4  /sbin/api-gateway
-archit    102   6.7   3.2  grpc-server --workers=16
-archit    118   4.3   2.8  kafka-consumer --group=events
-archit    134   1.9   0.9  redis-cache --mode=cluster
-archit    151   3.4   1.7  scheduler --cron
-archit    177   5.0   4.1  raft-node --peer-count=5
-archit    203   2.6   1.1  ai-agent --model=mcp-orchestrator
-archit    229   0.4   0.3  log-shipper
+USER        PID  %CPU  %MEM  COMMAND
+archit1jain   1   2.1   1.4  /sbin/api-gateway
+archit1jain 102   6.7   3.2  grpc-server --workers=16
+archit1jain 118   4.3   2.8  kafka-consumer --group=events
+archit1jain 134   1.9   0.9  redis-cache --mode=cluster
+archit1jain 151   3.4   1.7  scheduler --cron
+archit1jain 177   5.0   4.1  raft-node --peer-count=5
+archit1jain 203   2.6   1.1  ai-agent --model=mcp-orchestrator
+archit1jain 229   0.4   0.3  log-shipper
 ```
 
 <br>
 
-## `$ netstat -tulpn`
-
+```bash
+archit1jain@github:~$ netstat -tulpn
+```
 ```text
 Proto  Local Address     State    PID/Program
 tcp    0.0.0.0:8080      LISTEN   102/grpc-server
@@ -146,8 +149,9 @@ tcp    0.0.0.0:9090      LISTEN   -/prometheus
 
 <br>
 
-## `$ systemctl status current-project`
-
+```bash
+archit1jain@github:~$ systemctl status current-project
+```
 ```text
 ● ai-infra-platform.service - Multi-Agent Infrastructure & Digital Twin
    Loaded: loaded (/etc/systemd/system/ai-infra-platform.service)
@@ -165,8 +169,9 @@ tcp    0.0.0.0:9090      LISTEN   -/prometheus
 
 <br>
 
-## `$ git log --oneline --graph`
-
+```bash
+archit1jain@github:~$ git log --oneline --graph
+```
 ```text
 * 9c1a2f4 (HEAD -> main) feat: building AI-powered network digital twin
 * 6b7e3d1 feat: multi-agent infrastructure for diagnostics
@@ -182,8 +187,9 @@ tcp    0.0.0.0:9090      LISTEN   -/prometheus
 
 <br>
 
-## `$ cat /proc/learning`
-
+```bash
+archit1jain@github:~$ cat /proc/learning
+```
 ```yaml
 learning:
   - Database Internals
@@ -201,8 +207,9 @@ building:
 
 <br>
 
-## `$ cat /var/log/books`
-
+```bash
+archit1jain@github:~$ cat /var/log/books
+```
 ```text
 [reading]   Designing Data-Intensive Applications — Martin Kleppmann
 [reading]   Database Internals — Alex Petrov
@@ -211,66 +218,63 @@ building:
 
 <br>
 
-## `$ cat /etc/favorites`
-
+```bash
+archit1jain@github:~$ cat /etc/favorites
+```
 ```text
-editor        : neovim
-shell         : zsh
-language      : Go
-database      : PostgreSQL
-queue         : Kafka
-os            : Linux
-debug_tool    : tcpdump + a lot of patience
+editor       : neovim
+shell        : zsh
+language     : Go
+database     : PostgreSQL
+queue        : Kafka
+os           : Linux
+debug_tool   : tcpdump + a lot of patience
 ```
 
 <br>
-
-## `$ fetch --stats`
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=archit&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00FF88&icon_color=00FF88&text_color=c9d1d9" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=archit&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00FF88&ring=00FF88&fire=00FF88&currStreakLabel=00FF88" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=archit&theme=github-compact&hide_border=true&bg_color=0d1117&color=00FF88&line=00FF88&point=c9d1d9" width="90%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=archit&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00FF88&text_color=c9d1d9" />
-</p>
-
-<br>
-
-## `$ cat /var/log/contributions.snake`
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/archit/archit/output/github-contribution-grid-snake-dark.svg" alt="snake" />
-</p>
-
-> Generated nightly via [`Platane/snk`](https://github.com/Platane/snk) — see the Actions tab to wire up the workflow.
-
-<br>
-
----
-
-<p align="center">
 
 ```bash
-archit@github:~$ echo $MISSION
+archit1jain@github:~$ fetch --stats
 ```
 
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=archit1jain&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00FF88&icon_color=00FF88&text_color=c9d1d9" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=archit1jain&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00FF88&ring=00FF88&fire=00FF88&currStreakLabel=00FF88" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=archit1jain&theme=github-compact&hide_border=true&bg_color=0d1117&color=00FF88&line=00FF88&point=c9d1d9" width="90%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=archit1jain&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00FF88&text_color=c9d1d9" />
+</p>
+
+<br>
+
+```bash
+archit1jain@github:~$ cat /var/log/contributions.snake
 ```
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/archit1jain/archit1jain/output/github-contribution-grid-snake-dark.svg" alt="snake" />
+</p>
+
+> Generated nightly via [`Platane/snk`](https://github.com/Platane/snk) — wire up the workflow in Actions to activate this.
+
+<br>
+
+```bash
+archit1jain@github:~$ echo $MISSION
+```
+```text
 Build systems that keep working
 even when everything else doesn't.
 ```
 
 ```bash
-archit@github:~$ logout
+archit1jain@github:~$ logout
 ```
-
-```
+```text
 Connection to github closed.
 ```
-
-</p>
