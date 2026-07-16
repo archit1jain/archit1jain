@@ -5,55 +5,124 @@
 <br>
 
 ```text
-┌──────────────────────────────────────────────────────────────────┐
-│ ●  ●  ●                                    ssh archit1jain@github │
-├──────────────────────────────────────────────────────────────────┤
-│ Last login: Wed Jul 15 22:31:07 2026 from 10.0.0.14               │
-│                                                                    │
-│ Welcome to ArchitOS 3.2 LTS (GNU/Linux 6.9.0-backend x86_64)       │
-│                                                                    │
-│   Documentation : github.com/archit1jain                          │
-│   Uptime        : 6 years, 3 months, 14 days                      │
-│   System load   : 0.42        Processes : 118                     │
-│   Usage of /    : 71.2%       Users     : 1                       │
-└──────────────────────────────────────────────────────────────────┘
+archit1jain@github:~$ ssh archit1jain@github
+
+Last login: Wed Jul 15 22:31:07 2026 from 10.0.0.14
+Welcome to ArchitOS 3.2 LTS (GNU/Linux 6.9.0-backend x86_64)
+
+  Uptime      : 6 years, 3 months, 14 days
+  System load : 0.42        Processes : 118
+  Usage of /  : 71.2%       Users     : 1
 ```
 
 <br>
 
-```bash
+```text
 archit1jain@github:~$ whoami
 ```
 ```text
-Backend Engineer.
-Building distributed systems that stay up when everything else falls over.
+uid=1000(archit) gid=1000(engineers) groups=backend,distributed-systems,networking
 
-Fluent in Go and Java. Comfortable at 2am reading a stack trace from a
-service that's been running fine for two years.
+Role      : Software Engineer
+Focus     : Backend Infrastructure
+Location  : Bengaluru, India
 
-Interested in: system design, database internals, consensus algorithms,
-and teaching machines to page other machines instead of me.
+Current objective:
+    Build systems that survive production.
+
+Specialization:
+    • High-throughput APIs
+    • Distributed Systems
+    • Network Control Planes
+    • AI Infrastructure
 ```
 
 <br>
 
-```bash
+```text
 archit1jain@github:~$ uname -a
 ```
 ```text
-ArchitOS 3.2.0-backend #1 SMP PREEMPT Go/Java x86_64
-Kernel      : distributed-systems-6.9
-Arch        : latency-sensitive
-Build flags : -O2 -Wall -Wobservability
+Linux archit1jain 6.9.0-backend #1 SMP PREEMPT_DYNAMIC x86_64
+
+CPU        : Go Runtime
+Memory     : Distributed Systems
+Filesystem : Event Driven
+Scheduler  : Kafka
+Networking : OSPF | BGP | VXLAN
+Latency    : < 5ms preferred
 ```
 
 <br>
 
-```bash
-archit1jain@github:~$ tree /skills
+```text
+archit1jain@github:~$ cat /proc/cpuinfo
 ```
 ```text
-/skills
+processor   : 0
+vendor_id   : Go
+
+processor   : 1
+vendor_id   : Java
+
+processor   : 2
+vendor_id   : Distributed Systems
+
+processor   : 3
+vendor_id   : Network Engineering
+
+flags       : grpc kafka redis postgres raft concurrency
+```
+
+<br>
+
+```text
+archit1jain@github:~$ free -h
+```
+```text
+               total        used        free
+Knowledge      256GB       248GB         8GB
+Coffee      unlimited     unlimited        -
+Curiosity        100%         100%         0%
+Sleep            8GB      swapping...      -
+```
+
+<br>
+
+```text
+archit1jain@github:~$ df -h
+```
+```text
+Filesystem            Size    Used   Avail  Use%
+Backend Engineering    100G     93G      7G   93%
+Networking              40G     39G      1G   98%
+AI Infrastructure       18G     11G      7G   61%
+Frontend                 1M      7K    993K    1%
+```
+
+<br>
+
+```text
+archit1jain@github:~$ pwd
+```
+```text
+/home/archit1jain
+```
+
+```text
+archit1jain@github:~$ ls
+```
+```text
+projects/  skills/  books/  philosophy/  favorites.ini
+```
+
+<br>
+
+```text
+archit1jain@github:~$ cd skills && tree
+```
+```text
+.
 ├── backend/
 │   ├── Go
 │   ├── Java
@@ -102,8 +171,31 @@ archit1jain@github:~$ tree /skills
 
 <br>
 
-```bash
-archit1jain@github:~$ cat /etc/philosophy
+```text
+archit1jain@github:~/skills$ cd ../projects && ls
+```
+```text
+network-digital-twin/  ai-infra/  distributed-cache/  message-queues/
+```
+
+```text
+archit1jain@github:~/projects$ cat network-digital-twin/status
+```
+```text
+● ai-infra-platform.service - Multi-Agent Infrastructure & Digital Twin
+   Active: running since 2026-01-08
+
+   Building an AI-powered network digital twin backed by an event-driven
+   pipeline: Kafka for ingestion, Go services for orchestration, Redis
+   for hot-path state, and an agentic layer coordinating diagnostics.
+
+   Main PID: 203 (ai-agent)   Tasks: 12   Memory: 340.2M   CPU: 6.734s
+```
+
+<br>
+
+```text
+archit1jain@github:~/projects$ cd ../philosophy && cat manifesto
 ```
 ```text
 1. Measure before you optimize.
@@ -116,24 +208,76 @@ archit1jain@github:~$ cat /etc/philosophy
 
 <br>
 
-```bash
-archit1jain@github:~$ ps aux
+```text
+archit1jain@github:~/philosophy$ cd ../books && cat reading-list
 ```
 ```text
-USER        PID  %CPU  %MEM  COMMAND
-archit1jain   1   2.1   1.4  /sbin/api-gateway
-archit1jain 102   6.7   3.2  grpc-server --workers=16
-archit1jain 118   4.3   2.8  kafka-consumer --group=events
-archit1jain 134   1.9   0.9  redis-cache --mode=cluster
-archit1jain 151   3.4   1.7  scheduler --cron
-archit1jain 177   5.0   4.1  raft-node --peer-count=5
-archit1jain 203   2.6   1.1  ai-agent --model=mcp-orchestrator
-archit1jain 229   0.4   0.3  log-shipper
+[reading]   Designing Data-Intensive Applications — Martin Kleppmann
+[reading]   Database Internals — Alex Petrov
+[queued]    TCP/IP Illustrated, Vol. 1 — W. Richard Stevens
 ```
 
 <br>
 
-```bash
+```text
+archit1jain@github:~/books$ cd ~ && cat favorites.ini
+```
+```ini
+[user]
+editor = neovim
+shell  = zsh
+theme  = dark
+
+[backend]
+language = Go
+database = PostgreSQL
+queue    = Kafka
+
+[network]
+routing   = OSPF
+tunneling = IPsec
+
+[ai]
+framework = Agentic
+```
+
+<br>
+
+```text
+archit1jain@github:~$ ps aux
+```
+```text
+USER          PID  %CPU  %MEM  COMMAND
+archit1jain     1   2.1   1.4  api-gateway --tls
+archit1jain   102   6.7   3.2  grpc-server --threads=32
+archit1jain   118   4.3   2.8  kafka-consumer --group=payments
+archit1jain   134   1.9   0.9  redis-cache --eviction=lru
+archit1jain   151   3.4   1.7  scheduler --cron
+archit1jain   177   5.0   4.1  raft-node --peer-count=5
+archit1jain   203   2.6   1.1  ai-agent --model=mcp-orchestrator
+archit1jain   229   0.4   0.3  log-shipper --tail
+```
+
+<br>
+
+```text
+archit1jain@github:~$ top
+```
+```text
+Tasks: 221 total, 8 running
+
+CPU usage by domain:
+  Go            ████████████  62%
+  Kafka         ████████      41%
+  Databases     ███████       38%
+  Networking    ██████        33%
+  AI            █████         27%
+  Frontend      ░              2%
+```
+
+<br>
+
+```text
 archit1jain@github:~$ netstat -tulpn
 ```
 ```text
@@ -149,46 +293,44 @@ tcp    0.0.0.0:9090      LISTEN   -/prometheus
 
 <br>
 
-```bash
-archit1jain@github:~$ systemctl status current-project
+```text
+archit1jain@github:~$ history
 ```
 ```text
-● ai-infra-platform.service - Multi-Agent Infrastructure & Digital Twin
-   Loaded: loaded (/etc/systemd/system/ai-infra-platform.service)
-   Active: active (running) since 2026-01-08
-
-   Building an AI-powered network digital twin backed by an event-driven
-   pipeline: Kafka for ingestion, Go services for orchestration, Redis
-   for hot-path state, and an agentic layer coordinating diagnostics.
-
-   Main PID: 203 (ai-agent)
-      Tasks: 12
-     Memory: 340.2M
-        CPU: 6.734s
+1  learn Go
+2  learn Java
+3  build backend
+4  discover Kafka
+5  build distributed systems
+6  read DDIA
+7  build AI agents
+8  still debugging...
 ```
 
 <br>
 
-```bash
+```text
 archit1jain@github:~$ git log --oneline --graph
 ```
 ```text
-* 9c1a2f4 (HEAD -> main) feat: building AI-powered network digital twin
-* 6b7e3d1 feat: multi-agent infrastructure for diagnostics
-* 4f8d0a9 perf: cut p99 latency on core service by 38%
-* 2e9c8b3 feat: distributed cache experiments (Redis Cluster)
-* 1a7f6c2 feat: message queue implementations (Kafka, RabbitMQ)
-* 0d4b9e7 feat: network automation platform
-* 8c3a1f5 feat: high-throughput microservices in Go
-* 5f2e0d8 refactor: migrated core services from Java to Go
-* 3b1c9a4 feat: airline booking systems at scale
-* a0e8d2f init: started shipping backend systems
+* HEAD -> main
+
+2026   Forward Networks
+       AI Infrastructure — Network Digital Twin, Multi-Agent Systems
+
+2024   Distributed Systems
+       Distributed cache experiments, Kafka internals deep-dive
+
+2023   Sabre
+       Airline booking systems at scale
+
+2021   Started writing production code
 ```
 
 <br>
 
-```bash
-archit1jain@github:~$ cat /proc/learning
+```text
+archit1jain@github:/proc$ cat learning
 ```
 ```yaml
 learning:
@@ -207,34 +349,8 @@ building:
 
 <br>
 
-```bash
-archit1jain@github:~$ cat /var/log/books
-```
 ```text
-[reading]   Designing Data-Intensive Applications — Martin Kleppmann
-[reading]   Database Internals — Alex Petrov
-[queued]    TCP/IP Illustrated, Vol. 1 — W. Richard Stevens
-```
-
-<br>
-
-```bash
-archit1jain@github:~$ cat /etc/favorites
-```
-```text
-editor       : neovim
-shell        : zsh
-language     : Go
-database     : PostgreSQL
-queue        : Kafka
-os           : Linux
-debug_tool   : tcpdump + a lot of patience
-```
-
-<br>
-
-```bash
-archit1jain@github:~$ fetch --stats
+archit1jain@github:/var/log$ fetch --stats
 ```
 
 <p align="center">
@@ -252,8 +368,8 @@ archit1jain@github:~$ fetch --stats
 
 <br>
 
-```bash
-archit1jain@github:~$ cat /var/log/contributions.snake
+```text
+archit1jain@github:/var/log$ cat contributions.snake
 ```
 
 <p align="center">
@@ -264,7 +380,7 @@ archit1jain@github:~$ cat /var/log/contributions.snake
 
 <br>
 
-```bash
+```text
 archit1jain@github:~$ echo $MISSION
 ```
 ```text
@@ -272,7 +388,7 @@ Build systems that keep working
 even when everything else doesn't.
 ```
 
-```bash
+```text
 archit1jain@github:~$ logout
 ```
 ```text
