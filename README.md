@@ -376,10 +376,6 @@ archit1jain@github:/var/log$ cat contributions.snake
   <img src="https://raw.githubusercontent.com/archit1jain/archit1jain/output/github-contribution-grid-snake-dark.svg" alt="snake" />
 </p>
 
-> Generated nightly via [`Platane/snk`](https://github.com/Platane/snk) — wire up the workflow in Actions to activate this.
-
-<br>
-
 ```text
 archit1jain@github:~$ echo $MISSION
 ```
