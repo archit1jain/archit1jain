@@ -1,392 +1,300 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=%24+ssh+archit1jain%40github;%24+Loading+Distributed+Systems...;%24+Go+%E2%80%A2+Java+%E2%80%A2+Kafka+%E2%80%A2+Redis;%24+Building+Backend+Infrastructure..." alt="Typing SVG" />
-</p>
-
-<br>
-
-```text
-archit1jain@github:~$ ssh archit1jain@github
-
-Last login: Wed Jul 15 22:31:07 2026 from 10.0.0.14
-Welcome to ArchitOS 3.2 LTS (GNU/Linux 6.9.0-backend x86_64)
-
-  Uptime      : 6 years, 3 months, 14 days
-  System load : 0.42        Processes : 118
-  Usage of /  : 71.2%       Users     : 1
-```
-
-<br>
-
-```text
-archit1jain@github:~$ whoami
-```
-```text
-uid=1000(archit) gid=1000(engineers) groups=backend,distributed-systems,networking
-
-Role      : Software Engineer
-Focus     : Backend Infrastructure
-Location  : Bengaluru, India
-
-Current objective:
-    Build systems that survive production.
-
-Specialization:
-    • High-throughput APIs
-    • Distributed Systems
-    • Network Control Planes
-    • AI Infrastructure
-```
-
-<br>
-
-```text
-archit1jain@github:~$ uname -a
-```
-```text
-Linux archit1jain 6.9.0-backend #1 SMP PREEMPT_DYNAMIC x86_64
-
-CPU        : Go Runtime
-Memory     : Distributed Systems
-Filesystem : Event Driven
-Scheduler  : Kafka
-Networking : OSPF | BGP | VXLAN
-Latency    : < 5ms preferred
-```
-
-<br>
-
-```text
-archit1jain@github:~$ cat /proc/cpuinfo
-```
-```text
-processor   : 0
-vendor_id   : Go
-
-processor   : 1
-vendor_id   : Java
-
-processor   : 2
-vendor_id   : Distributed Systems
-
-processor   : 3
-vendor_id   : Network Engineering
-
-flags       : grpc kafka redis postgres raft concurrency
-```
-
-<br>
-
-```text
-archit1jain@github:~$ free -h
-```
-```text
-               total        used        free
-Knowledge      256GB       248GB         8GB
-Coffee      unlimited     unlimited        -
-Curiosity        100%         100%         0%
-Sleep            8GB      swapping...      -
-```
-
-<br>
-
-```text
-archit1jain@github:~$ df -h
-```
-```text
-Filesystem            Size    Used   Avail  Use%
-Backend Engineering    100G     93G      7G   93%
-Networking              40G     39G      1G   98%
-AI Infrastructure       18G     11G      7G   61%
-Frontend                 1M      7K    993K    1%
-```
-
-<br>
-
-```text
-archit1jain@github:~$ pwd
-```
-```text
-/home/archit1jain
-```
-
-```text
-archit1jain@github:~$ ls
-```
-```text
-projects/  skills/  books/  philosophy/  favorites.ini
-```
-
-<br>
-
-```text
-archit1jain@github:~$ cd skills && tree
-```
-```text
-.
-├── backend/
-│   ├── Go
-│   ├── Java
-│   ├── gRPC
-│   ├── REST APIs
-│   ├── Concurrency & Goroutines
-│   └── Service Design
-│
-├── messaging/
-│   ├── Kafka
-│   ├── RabbitMQ
-│   ├── NATS
-│   └── Redis Streams
-│
-├── databases/
-│   ├── PostgreSQL
-│   ├── MySQL
-│   ├── Redis
-│   ├── Cassandra
-│   └── DynamoDB
-│
-├── observability/
-│   ├── Prometheus
-│   ├── Grafana
-│   └── OpenTelemetry
-│
-├── networking/
-│   ├── TCP/IP
-│   ├── BGP
-│   ├── OSPF
-│   ├── VXLAN
-│   └── IPsec
-│
-├── ai-infra/
-│   ├── Agentic Systems
-│   ├── LLM Infrastructure
-│   ├── RAG Pipelines
-│   └── MCP
-│
-└── tooling/
-    ├── Docker
-    ├── Kubernetes (light use)
-    ├── Git
-    └── Linux
-```
-
-<br>
-
-```text
-archit1jain@github:~/skills$ cd ../projects && ls
-```
-```text
-network-digital-twin/  ai-infra/  distributed-cache/  message-queues/
-```
-
-```text
-archit1jain@github:~/projects$ cat network-digital-twin/status
-```
-```text
-● ai-infra-platform.service - Multi-Agent Infrastructure & Digital Twin
-   Active: running since 2026-01-08
-
-   Building an AI-powered network digital twin backed by an event-driven
-   pipeline: Kafka for ingestion, Go services for orchestration, Redis
-   for hot-path state, and an agentic layer coordinating diagnostics.
-
-   Main PID: 203 (ai-agent)   Tasks: 12   Memory: 340.2M   CPU: 6.734s
-```
-
-<br>
-
-```text
-archit1jain@github:~/projects$ cd ../philosophy && cat manifesto
-```
-```text
-1. Measure before you optimize.
-2. Optimize before you scale.
-3. A system you can't observe is a system you don't control.
-4. Simple and boring beats clever and fragile.
-5. Every queue has a consumer. Every consumer can fall behind.
-6. Automate the repetitive. Document the irreversible.
-```
-
-<br>
-
-```text
-archit1jain@github:~/philosophy$ cd ../books && cat reading-list
-```
-```text
-[reading]   Designing Data-Intensive Applications — Martin Kleppmann
-[reading]   Database Internals — Alex Petrov
-[queued]    TCP/IP Illustrated, Vol. 1 — W. Richard Stevens
-```
-
-<br>
-
-```text
-archit1jain@github:~/books$ cd ~ && cat favorites.ini
-```
-```ini
-[user]
-editor = neovim
-shell  = zsh
-theme  = dark
-
-[backend]
-language = Go
-database = PostgreSQL
-queue    = Kafka
-
-[network]
-routing   = OSPF
-tunneling = IPsec
-
-[ai]
-framework = Agentic
-```
-
-<br>
-
-```text
-archit1jain@github:~$ ps aux
-```
-```text
-USER          PID  %CPU  %MEM  COMMAND
-archit1jain     1   2.1   1.4  api-gateway --tls
-archit1jain   102   6.7   3.2  grpc-server --threads=32
-archit1jain   118   4.3   2.8  kafka-consumer --group=payments
-archit1jain   134   1.9   0.9  redis-cache --eviction=lru
-archit1jain   151   3.4   1.7  scheduler --cron
-archit1jain   177   5.0   4.1  raft-node --peer-count=5
-archit1jain   203   2.6   1.1  ai-agent --model=mcp-orchestrator
-archit1jain   229   0.4   0.3  log-shipper --tail
-```
-
-<br>
-
-```text
-archit1jain@github:~$ top
-```
-```text
-Tasks: 221 total, 8 running
-
-CPU usage by domain:
-  Go            ████████████  62%
-  Kafka         ████████      41%
-  Databases     ███████       38%
-  Networking    ██████        33%
-  AI            █████         27%
-  Frontend      ░              2%
-```
-
-<br>
-
-```text
-archit1jain@github:~$ netstat -tulpn
-```
-```text
-Proto  Local Address     State    PID/Program
-tcp    0.0.0.0:8080      LISTEN   102/grpc-server
-tcp    0.0.0.0:50051     LISTEN   102/grpc-server
-tcp    0.0.0.0:9092      LISTEN   118/kafka
-tcp    0.0.0.0:6379      LISTEN   134/redis
-tcp    0.0.0.0:5432      LISTEN   -/postgres
-tcp    0.0.0.0:5672      LISTEN   -/rabbitmq
-tcp    0.0.0.0:9090      LISTEN   -/prometheus
-```
-
-<br>
-
-```text
-archit1jain@github:~$ history
-```
-```text
-1  learn Go
-2  learn Java
-3  build backend
-4  discover Kafka
-5  build distributed systems
-6  read DDIA
-7  build AI agents
-8  still debugging...
-```
-
-<br>
-
-```text
-archit1jain@github:~$ git log --oneline --graph
-```
-```text
-* HEAD -> main
-
-2026   Forward Networks
-       AI Infrastructure — Network Digital Twin, Multi-Agent Systems
-
-2024   Distributed Systems
-       Distributed cache experiments, Kafka internals deep-dive
-
-2023   Sabre
-       Airline booking systems at scale
-
-2021   Started writing production code
-```
-
-<br>
-
-```text
-archit1jain@github:/proc$ cat learning
-```
-```yaml
-learning:
-  - Database Internals
-  - Consensus Algorithms (Raft, Paxos)
-  - Storage Engines (LSM trees, B-trees)
-  - Distributed Transactions
-  - Kafka Internals
-
-building:
-  - AI Infrastructure
-  - Agentic Systems
-  - Backend Services
-  - Open Source Tooling
-```
-
-<br>
-
-```text
-archit1jain@github:/var/log$ fetch --stats
-```
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=archit1jain&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00FF88&icon_color=00FF88&text_color=c9d1d9" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=archit1jain&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00FF88&ring=00FF88&fire=00FF88&currStreakLabel=00FF88" />
+  <sub>« SHIFTING APERTURE PROTOCOL ACTIVATED »</sub>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=archit1jain&theme=github-compact&hide_border=true&bg_color=0d1117&color=00FF88&line=00FF88&point=c9d1d9" width="90%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=archit1jain&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00FF88&text_color=c9d1d9" />
+  <code style="color: #00FF88;">[ SYSTEM STATUS: CURIOUS • COGNITION: ENGAGED • INSTRUMENTATION: CALIBRATED ]</code>
 </p>
 
 <br>
 
 ```text
-archit1jain@github:/var/log$ cat contributions.snake
+               ._____________________________________________.
+               |                                             |
+               |     ._________________   ______________     |
+               |    /  \  ___________  | /  ___________ \    |
+               |   /    \ \          | |/ /            \ \   |
+               |  /  /\  \ \         |   /              \ \  |
+               | /  /  \  \ \        |  /                \ \ |
+               |/  /____\  \ \       |  |     ___        | | |
+               |/  ________  \ \     |  |    /   \       | | |
+               |/  /        \  \ \   |  \    \___/       / / |
+               |/  /          \  \ \____| |\ \_____________/ /  |
+               |/__/            \__\_______| \_______________/   |
+               |                                             |
+               |         THE ASTROLABE OF THE SYSTEM         |
+               |_____________________________________________|
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/archit1jain/archit1jain/output/github-contribution-grid-snake-dark.svg" alt="snake" />
+  <i>"We build structures in the dark so that others may walk in the light."</i>
 </p>
 
-```text
-archit1jain@github:~$ echo $MISSION
-```
-```text
-Build systems that keep working
-even when everything else doesn't.
-```
+***
+
+## ✦ CHAPTER I: THE ENTRY PROTOCOL
+
+You have bypassed the standard perimeter.
+
+If you came here looking for a ledger of specific tools, acronyms, or typical credential cards, you will find none. Those are merely keys; what matters is the architecture of the doors they open.
+
+Pretend you already know I can bend machines to my will. Instead, look through this looking-glass to see *how* the clockwork is arranged, *why* the gears turn, and *where* the journey is headed.
 
 ```text
-archit1jain@github:~$ logout
+[!] Connection Interface : tty.astro-09
+[!] Signal Resilience    : Dynamic Autotuning
+[!] Active Mission       : Mapping the Invisible
+[!] Core Philosophy      : Build things that survive the storm.
+[!] Explorer Status      : Underway
 ```
+
+***
+
+## ✦ CHAPTER II: THE EXPLORER'S DIARY
+*Extracts from a leather-bound journal found on the edge of the virtual frontier.*
+
+### Entry 104: The Great Convergence
+> *The wind in this sector carries the sound of millions of whispers, traveling through narrow copper channels. Yesterday, I watched as two massive networks tried to speak to one another. Their dialects were slightly off, their timing mismatched. They threw exceptions like sparks into dry grass.*
+>
+> *Instead of building a heavier bridge, I introduced a slow-breathing buffer. I taught them to wait, to queue, and to listen. By midnight, the sparks had died down. The whispering was smooth, quiet, and continuous. I realized then: engineering is not about forcing energy through a pipe; it is about teaching the pipe how to breathe.*
+
+### Entry 189: The Sinking Vault
+> *We came upon an old storage vault that had begun to sink under its own weight. Every time the sun set, the requests would double, and the vault would groan, spilling records into the abyss. Others suggested building ten more vaults of the same design.*
+>
+> *I spent three days examining the foundation. I found that the index—the map of where things are kept—was too large to fit in the vault's immediate memory. It was constantly running down to the basement to check the main ledger. I moved the map of the most frequently visited rooms to the top desk. The vault stopped groaning. It now answers before the question is fully asked.*
+
+### Entry 242: The Digital Twin
+> *I am drawing a map of a city that does not exist physically, but lives entirely in the behavior of our signals. A digital twin. If a bridge collapses in the virtual world, the twin must feel the tremor and warn the living city before the disaster ripples outward. We are building observers that never sleep, sending small mechanical birds to report back from the furthest corners of the territory.*
+
+***
+
+## ✦ CHAPTER III: THE LEDGER OF EXPEDITIONS
+
+A record of voyages through shifting architectural landscapes, documented by the surveyor.
+
 ```text
-Connection to github closed.
+    [EPOCH I]                [EPOCH II]               [EPOCH III]
+   The Clockwork            The Constellations        The Mirror Lands
+   (Transactional Hubs)     (Message Pipelines)       (Self-Healing Swarms)
+       |                        |                        |
+       +------------------------+------------------------+-----> [Present]
 ```
+
+### Epoch III: The Mirror Lands (The Cartography of Reflection)
+* **The Objective:** Constructing a living, high-fidelity digital mirror of vast, interconnected pipelines that communicate in real-time.
+* **The Trial:** Forging autonomous diagnostic units that wander through the system, whispering to one another, observing irregularities, and correcting anomalies without human intervention.
+* **The Insight:** A system that cannot observe itself is a system destined to drift. True resilience is not the absence of failure, but the presence of self-awareness.
+
+### Epoch II: The Constellation Networks (The Orchestration of Whispers)
+* **The Objective:** Designing transit networks where millions of micro-messages traverse volatile bridges every second, in absolute, guaranteed order.
+* **The Trial:** Building resilient vaults that cache hot-path states, ensuring that even if half the network vanishes into the ether, no single transaction is forgotten or duplicated.
+* **The Insight:** Every queue has a horizon. When traffic swells like a tide, the elegant system does not break; it breathes, buffers, and gracefully pushes back.
+
+### Epoch I: The Grand Clockwork (The Temporal Alignment)
+* **The Objective:** Coordinating complex transactional synchronization across shifting planetary time-zones, where milliseconds dictate the fate of global travel booking engines.
+* **The Trial:** Aligning deep transactional layers to prevent double-booking collisions, keeping massive database clusters in perfect consensus during high-frequency reservation bursts.
+* **The Insight:** Simplicity is a hard-won craft. A single, well-placed barrier is worth more than ten complex retry algorithms.
+
+***
+
+## ✦ CHAPTER IV: THE CABINET OF CURIOSITIES
+
+A collection of strange artifacts, odd behaviors, and intellectual treasures gathered from production environments and late-night investigations.
+
+| Artifact ID | Name of the Curiosity | Observed Behavior | Logged Insight |
+| :--- | :--- | :--- | :--- |
+| `ART-089` | **The Unstoppable Wheel** | A self-repairing execution loop that continued processing requests even when the primary database cluster suffered complete localized blackout. | Isolation of concerns is the ultimate shield; run hot paths independent of cold dependencies. |
+| `ART-104` | **The Silent Chronometer** | An event scheduler capable of handling hundreds of thousands of heartbeats per second without consuming more than a handful of system memory. | Algorithmic craftsmanship beats brute force scaling every single day. |
+| `ART-213` | **The Observability Prism** | A diagnostic tool that turns complex multi-node trace logs into a visible, color-coded stream of system health. | If you cannot visualize the bottleneck, you are debugging in the dark. |
+| `ART-302` | **The Ghost in the Latency** | A mysterious 15ms delay that only appeared when rain fell on the secondary datacenter. (Turned out to be an over-cooled fiber conduit). | The physical world always finds a way to leak into virtual abstractions. |
+| `ART-441` | **The Whispering Sentinel** | A background daemon that detected silent data corruption by listening to the rhythmic frequency of system writes. | Even silent systems sing a song; you just have to learn how to listen. |
+
+***
+
+## ✦ CHAPTER V: THE BLUEPRINT & LAB LOGS
+*Found on a wooden table in an abandoned laboratory, next to a cold cup of black coffee.*
+
+```text
+  +-------------------------------------------------------------+
+  |  LAB LOG: RUN #4092                                         |
+  |  "Optimize first for understanding, then for performance,   |
+  |   and only then for scale. Fragile cleverness is the enemy  |
+  |   of longevity."                                            |
+  +-------------------------------------------------------------+
+```
+
+### 📋 Daily Calibration Tasks
+- [x] Trace the wandering path of a stray network packet through five micro-layers of abstraction.
+- [x] Fine-tune the consensus algorithms to survive split-brain scenarios under simulated heavy packet loss.
+- [x] Evict dusty, stale records from the hot-cache to make room for tomorrow's floods.
+- [ ] Investigate why autonomous intelligence agent `0x9B` has begun writing cryptic journal entries in the debug logs.
+- [ ] Hunt down the elusive 3ms tail-latency spike that occurs exactly at midnight.
+
+### 📐 Structural Blueprint: The Resilient Pipeline
+```text
+           [Incoming Flood of Events]
+                      │
+                      ▼
+             ┌─────────────────┐
+             │  Tidal Dam      │ <--- (Adaptive Rate Limiter)
+             └─────────────────┘
+                      │
+                      ├────────────────────────┐
+                      ▼                        ▼
+             ┌─────────────────┐      ┌─────────────────┐
+             │  Fast Lane      │      │  Buffer Pool    │ <--- (For overflow)
+             │  (Hot Memory)   │      └─────────────────┘
+             └─────────────────┘               │
+                      │                        │ (Drained when
+                      ▼                        │  storm passes)
+             ┌─────────────────┐               │
+             │  Consensus Core │ <─────────────┘
+             └─────────────────┘
+                      │
+                      ▼
+             ┌─────────────────┐
+             │  Persistent     │ <--- (Immutable Append-Only Ledger)
+             │  Storage        │
+             └─────────────────┘
+```
+
+***
+
+## ✦ CHAPTER VI: THE PHILOSOPHER'S CODEX
+*Six axioms for building machines that endure.*
+
+> ### I. Measure Before You Carve
+> *Do not sharpen the knife before you know what you are cutting. A single precise measurement saves a hundred desperate modifications.*
+>
+> ### II. The Law of the Leaky Pipe
+> *No matter how perfect your abstraction, the physical reality of the machine will eventually leak through. Prepare for the leak, and keep your towels dry.*
+>
+> ### III. Elegance Over Complexity
+> *A system with three moving parts is beautiful. A system with thirty moving parts is a hostage situation. Write code that can be deleted in a single keystroke.*
+>
+> ### IV. The Silent Watchman
+> *A system you cannot observe is a wild animal. If you cannot see its heart rate, you do not control it; you are merely hoping it doesn't turn on you.*
+>
+> ### V. Respect the Queue
+> *Every queue has a horizon. If your consumers fall behind, the queue will grow until it swallows the memory of the world. Treat your downstreams with respect.*
+>
+> ### VI. The Art of the Post-Mortem
+> *When a machine breaks, do not look for a culprit to blame. Look for the assumption that was broken. A failure is merely an expensive lesson in disguise.*
+
+***
+
+## ✦ CHAPTER VII: THE ARCHIVE OF SECRET CODES & ENIGMAS
+*The README rewards those who look closer. Here are the files locked behind vault doors.*
+
+<details>
+<summary>🔍 Examine the Loose Floorboard</summary>
+
+```text
+Under the dusty wood, you find an old leather pouch containing a brass key and a slip of paper.
+It reads:
+
+  "The best code is the code that is never written,
+   because it never has to be maintained,
+   it never breaks, and it runs in 0ms."
+```
+</details>
+
+<details>
+<summary>🧭 Coordinates of Forgotten Domains</summary>
+
+```text
+Should you wish to sail through imaginary coordinates, set your navigational compass to:
+
+  - The Clockwork Citadel  : [45.1098° N, 122.6801° W] (Where systems run in perfect synchronization)
+  - The Event-Horizon Reef : [03.1415° S, 159.2653° E] (Where messages flow and never return)
+  - The Archive of Babel   : [89.0001° N,  00.0000° E] (Where every line of code ever conceived is indexed)
+  - The Silent Observatory : [34.0522° N, 118.2437° W] (Where signals from space are logged and analyzed)
+```
+</details>
+
+<details>
+<summary>📜 Decrypt the Cryptic Log Entry</summary>
+
+```text
+A strange message was found embedded in a corrupted block of cache memory.
+It appears to be encoded in a simple rotation cipher (ROT-13):
+
+  "Pelbftensul vf n fuvryq, ohg fvcyvpvgl vf n fjbeq.
+   Ohvyq sbe gur hfre jub jvyy jnvg sbe lbhe flfgrz gb snyy."
+
+  [ Hint: ROT-13 rotates letters by 13 positions. A becomes N, B becomes O. ]
+  [ Decode it to reveal a hidden engineering truth. ]
+```
+</details>
+
+<details>
+<summary>🧩 Solve the Signal Riddle</summary>
+
+```text
+To prove your alignment with the system, solve this riddle:
+
+  "I have no mouth, yet I tell you when things are broken.
+   I have no eyes, yet I record every path taken.
+   If you ignore me, your system will crumble in the dark.
+   If you watch me, I will show you where to strike.
+
+   What am I?"
+
+  [ Answer: T _ _ C E S   &   L _ _ S ]
+```
+</details>
+
+<details>
+<summary>🛠️ The Master Builder's Sandbox (A Cryptographic Challenge)</summary>
+
+```text
+Can you trace the path of the signal through the registry?
+Here is an ancient cryptographic sequence:
+
+  INPUT:  [ 0x01, 0x02, 0x03, 0x04 ]
+  STEP 1: Reverse the sequence.
+  STEP 2: Multiply each element by its 1-based index in the reversed list.
+  STEP 3: Sum the results.
+
+  What is the final decimal value of the signal?
+
+  [ Answer: (4*1) + (3*2) + (2*3) + (1*4) = 20 ]
+```
+</details>
+
+***
+
+## ✦ CHAPTER VIII: WHIMSICAL ACHIEVEMENTS
+*Tokens of honor awarded during the journey.*
+
+* **🏆 The Chrono-Scribe:** Successfully synchronized clocks across five asynchronous clusters without resorting to artificial delays.
+* **🏆 The Garbage Collector of Lost Ideas:** Deleted over 10,000 lines of obsolete, over-engineered code in a single sweep, improving system readability by 40%.
+* **🏆 The Whisperer of Packets:** Convinced a stubborn, misrouted packet to find its way home through a complex, dynamically routing topology.
+* **🏆 The Midnight Alchemist:** Transformed a chaotic, failing production outage into a beautifully documented post-mortem, which was later used to train incoming engineers.
+* **🏆 The Eternal Student:** Spent a rainy Sunday reading a dense 800-page treatise on database storage engines, just for the joy of understanding how bits hit the platter.
+
+***
+
+## ✦ CHAPTER IX: THE TERMINAL PROTOCOL
+
+```text
+====================================================================
+               [ EXITING PORTAL • SYSTEM SAVING STATE ]
+====================================================================
+```
+
+If you have scrolled this far, you have seen the landscape of my mind. I believe in **systems that whisper instead of scream**, **architectures that stand resilient under pressure**, and **craftsmanship that treats code as a digital tapestry**.
+
+If you share this curiosity for building elegant systems, exploring imaginary boundaries, or debugging things that break beautifully:
+
+```text
+archit1jain@github:~$ touch /communication/handshake
+```
+
+> *The door is always unlocked. You only need to turn the handle.*
+
+<br>
+
+<p align="center">
+  <sub>Handcrafted with absolute curiosity. No metrics, no templates, no clichés.</sub>
+</p>
